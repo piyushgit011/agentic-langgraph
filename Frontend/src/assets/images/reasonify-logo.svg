@@ -1,0 +1,25 @@
+<svg width="420" height="70" viewBox="0 0 420 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <text x="0" y="50" font-family="Segoe UI" font-size="48" font-weight="800" fill="url(#reasonGradient)">REASON</text>
+  <g transform="translate(220,15)">
+    <polygon points="0,0 42,0 60,20 42,40 0,40 18,20"
+      fill="url(#gateGradient)" />
+    <rect x="-12" y="10" width="15" height="4" rx="2" fill="#10b981"/>
+    <rect x="-12" y="26" width="15" height="4" rx="2" fill="#10b981"/>
+    <rect x="60" y="18" width="15" height="4" rx="2" fill="#06b6d4"/>
+  </g>
+  <text x="310" y="50" font-family="Segoe UI" font-size="48" font-weight="800" fill="url(#ifyGradient)">IFY</text>
+  <defs>
+    <linearGradient id="reasonGradient" x1="0" y1="0" x2="200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="gateGradient" x1="0" y1="0" x2="60" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10b981"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="ifyGradient" x1="0" y1="0" x2="100" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06b6d4"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+</svg>

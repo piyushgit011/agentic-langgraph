@@ -1,0 +1,50 @@
+# FastAPI and Server
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# Database - SQLite (built into Python, no additional driver needed)
+sqlalchemy>=2.0.23
+alembic>=1.12.1
+
+# Authentication  
+fastapi-users[sqlalchemy]>=12.1.2
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+
+# Memory & AI - Updated versions for compatibility
+mem0ai>=0.1.0
+openai>=1.50.0
+
+# Vector Database - Qdrant
+qdrant-client>=1.7.0
+
+# LangGraph and LangChain - Updated versions
+langgraph>=0.4.10
+langchain>=0.3.26
+langchain-openai>=0.3.27
+langchain-core>=0.3.26
+
+
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.5.0,<3.0.0
+pydantic-settings>=2.0.0
+redis>=5.0.1
+numpy>=1.24.3
+pandas>=2.0.3
+
+# Development
+pytest>=7.4.3
+pytest-asyncio>=0.21.1
+black>=23.11.0
+isort>=5.12.0
+
+# Additional recommended packages for production
+httpx>=0.25.0
+tenacity>=8.2.0
+python-json-logger>=2.0.0
+
+# ChromaDB as fallback vector store
+chromadb>=0.4.0

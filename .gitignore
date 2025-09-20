@@ -1,0 +1,17 @@
+# Gitignore for Math Teacher AI project
+*.pyc
+__pycache__/
+venv/
+.venv/
+.env
+node_modules/
+.next/
+dist/
+build/
+*.log
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
